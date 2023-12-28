@@ -28,7 +28,6 @@ import { BiMessageRoundedDetail, BiHeart } from "react-icons/bi";
 import {
   MdOutlineExplore,
   MdVideoLibrary,
-  MdCreateNewFolder,
   MdOutlineCreateNewFolder,
 } from "react-icons/md";
 import InstaCard from "../InstaCard/InstaCard";
@@ -164,7 +163,7 @@ const InstaPage = () => {
                   color="#fff"
                   mb={["0", "0", "0", "16px", "16px"]}
                   w={["10px", "10px", "10px", "200px", "200px"]}
-                  py={[, "0", "0", "0", "8px", "8px"]}
+                  py={["0", "0", "0", "8px", "8px"]}
                   fontWeight="400"
                   fontSize="16px"
                   mx="20px"

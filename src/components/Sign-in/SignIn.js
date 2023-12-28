@@ -2,22 +2,14 @@ import {
   Box,
   Button,
   ButtonGroup,
-  Container,
   Flex,
-  FormControl,
-  FormHelperText,
-  FormLabel,
-  Heading,
   HStack,
   Image,
-  Input,
   Link,
   Text,
   useBreakpointValue,
 } from "@chakra-ui/react";
 import React from "react";
-import SignUp from "../Sign-up/SignUp";
-import { Route, Router, Routes } from "react-router-dom";
 
 const SignIn = () => {
   const isDesktop = useBreakpointValue({ base: false, lg: true });

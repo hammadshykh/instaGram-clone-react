@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import SignUp from "./components/Sign-up/SignUp";
-import SignIn from "./components/Sign-in/SignIn";
 import Login from "./components/Login/Login";
 import InstaPage from "./components/InstaPage/InstaPage";
 import InstaPofile from "./components/InstaProfile/InstaProfile";
-import { Container } from "@chakra-ui/react";
 import InstaChats from "./components/InstaChats/InstaChats";
 import Search from "./components/Search/Search";
 

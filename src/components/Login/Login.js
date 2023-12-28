@@ -4,9 +4,6 @@ import {
   ButtonGroup,
   Flex,
   FormControl,
-  FormHelperText,
-  FormLabel,
-  Heading,
   HStack,
   Image,
   Input,
@@ -59,20 +56,17 @@ const Login = () => {
   };
 
   const submitHandler = () => {
-    InstaLocalData.map((json) => {
-      if (inputEmail === "" || inputPassword === "") {
-        showAlertHandler("danger", "Please enter the value");
-        return;
-      }
-      if (!inputEmail || !inputPassword) {
-        console.log("InCorrect");
-        setInvalid(false);
-        return;
-      } else {
-        console.log("correct");
-        setInvalid(true);
-      }
-    });
+    if (inputEmail === "" || inputPassword === "") {
+      showAlertHandler("danger", "Please enter the value");
+    }
+    if (!inputEmail || !inputPassword) {
+      console.log("InCorrect");
+      setInvalid(false);
+      return;
+    } else {
+      console.log("correct");
+      setInvalid(true);
+    }
   };
 
   return (

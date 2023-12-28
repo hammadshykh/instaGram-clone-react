@@ -14,12 +14,6 @@ import {
   Flex,
   Image,
   Text,
-  Heading,
-  Stack,
-  Avatar,
-  Center,
-  useColorModeValue,
-  FormControl,
 } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -31,7 +25,6 @@ import { BiMessageRoundedDetail, BiHeart } from "react-icons/bi";
 import {
   MdOutlineExplore,
   MdVideoLibrary,
-  MdCreateNewFolder,
   MdOutlineCreateNewFolder,
 } from "react-icons/md";
 import { FiPlusSquare } from "react-icons/fi";
